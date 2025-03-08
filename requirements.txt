@@ -3,3 +3,5 @@ djangorestframework
 django-cors-headers
 feedparser
 pytz
+psycopg2-binary
+django-environ
