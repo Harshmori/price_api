@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "price_api/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "price_api/wsgi.py"
+      }
+    ]
+  }
